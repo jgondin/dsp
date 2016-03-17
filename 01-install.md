@@ -1,3 +1,6 @@
+---
+output: pdf_document
+---
 # Install software on your computer
 
 
@@ -46,13 +49,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I pretend to use python 3 on data analysis projects.
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Just open python on the terminal and it will show basic information about python including is version. I am quite sure this will work on any plataform.
 
  
 

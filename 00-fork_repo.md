@@ -1,3 +1,6 @@
+---
+output: pdf_document
+---
 You have two options to complete parts 1-3 (Install, Editors, Command Line).  
 
 Option 1:  _Beginner:_ Edit markdown files directly on GitHub.  (Follow the instructions below).  
@@ -55,6 +58,6 @@ Here's your first chance to practice this:
 
 What is your favorite [emoji](http://www.emoji-cheat-sheet.com/)?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+:scream:
 
 
