@@ -1,3 +1,6 @@
+---
+output: pdf_document
+---
 # Set up your repository on GitHub
 
 Before you start, please take 15 minutes to [Try Git](https://try.github.io/levels/1/challenges/1). It does a great job at explaining the basic concepts, which we will be using for this part of the pre-work. 
