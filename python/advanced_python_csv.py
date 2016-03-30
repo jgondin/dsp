@@ -23,7 +23,7 @@ emails = []
 for i in range(1, len(facu)):
     emails.append(facu[i][3])
 
-file = '/home/gondin/metis/bootcamp/dsp/python/emails.py'
+file = '/home/gondin/metis/bootcamp/dsp/python/emails.csv'
 write_data(emails, file)
 
 #print emails.

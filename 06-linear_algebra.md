@@ -1,17 +1,21 @@
+---
+output: pdf_document
+---
 ## Linear Algebra
 
 **Read the following quick sheet:**
-[  Linear Algebra Explained in 4 Pages](math/linear_algebra_in_4pages.pdf)
+[Linear Algebra Explained in 4 Pages](math/linear_algebra_in_4pages.pdf)
 
 ---
 
-You should be familiar with the following concepts:
-* adding vectors
-* matrix multiplication
-* matrix inverse
-* how to visualize lines and planes and hyperplanes; dot product
-* systems of linear equations
-* eigenvalues
+You should be familiar with the following concepts:   
+
+* adding vectors 
+* matrix multiplication 
+* matrix inverse 
+* how to visualize lines and planes and hyperplanes; dot product 
+* systems of linear equations 
+* eigenvalues 
 
 ### Exercises  
 
