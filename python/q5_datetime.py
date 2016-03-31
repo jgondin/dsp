@@ -9,8 +9,8 @@ delta = date_stop - date_start
 print(' %d days' % delta.days)
 
 ####b)  
-date_start = dt.date.fromtimestamp(12312013)  
-date_stop = dt.date.fromtimestamp(105282015)  
+date_start = dt.datetime.strptime('12312013', '%m%d%Y')  
+date_stop = dt.datetime.strptime('05282015', '%m%d%Y')  
 delta = date_stop - date_start
 print(' %d days' % delta.days)
 
