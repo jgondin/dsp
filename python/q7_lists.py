@@ -124,16 +124,15 @@ def linear_merge(list1, list2):
         return(list2)
     elif list2==[]:
         return(list1)
-    if list1[0] < list2[0]:
-        list = [list1.pop(0)]
-        list += linear_merge(list1, list2)
-        return(list)
+    if list1[-1] > list2[-1]:
+        #Drop the end in list1 
+        x = list1.pop(-1)
+        #Add x to the end of the final list.
+        return(linear_merge(list1, list2) + [x])
     else:
-        list = [list2.pop(0)]
-        list += linear_merge(list1, list2)
-        return(list) 
+        x = list2.pop(-1)
+        return(linear_merge(list1, list2) + [x])
 
-            
     #raise NotImplementedError
 
 # match_ends
