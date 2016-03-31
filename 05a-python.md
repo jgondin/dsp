@@ -48,7 +48,12 @@ Diffencies:
 - Sets have unique elements, lists do not.
 - Sets have different methods (e.g. union and intersection).
 - The operators  &, ^, | works on sets, not on lists.
+- ``x in s'' and ``x in l'' different time complexity. 
+in an [average case](https://wiki.python.org/moin/TimeComplexity) 
+O(len(s)) and O(len(n)), respecvely.   
+- Iteration over a list is faster than over a set.
 
+ 
 ---
 
 ###Q3. Lambda Function
