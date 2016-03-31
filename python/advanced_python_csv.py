@@ -21,7 +21,7 @@ print('\n Question 5')
 #Q5
 emails = []
 for i in range(1, len(facu)):
-    emails.append(facu[i][3])
+    emails.append([facu[i][3]])
 
 file = '/home/gondin/metis/bootcamp/dsp/python/emails.csv'
 write_data(emails, file)
@@ -48,6 +48,7 @@ for k in faculty_dict.keys():
     print('          ]')
 
 print('\n Question 7')
+
 #Q7
 professor_dict = cl.OrderedDict()
 for row in facu[1:]:
