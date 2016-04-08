@@ -1,3 +1,6 @@
+---
+output: pdf_document
+---
 # Statistics
 
 Read Allen Downey's [Think Stats (second edition)](http://greenteapress.com/thinkstats2/) and [Think Bayes](http://greenteapress.com/thinkbayes/) for getting up to speed with core ideas in statistics and how to approach them programmatically. Both books are completely available online, or you can buy physical copies if you would like.
@@ -70,15 +73,57 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Baye's Theoream says: $$p(A|B) = p(A)*p(B|A) / p(B)$$   
+Considere the events; 
+- $T$: "have a twin"
+- $F$: "have a freaternal twin" 
+- $I$: "have an identical" 
+
+Since the probabily that Elvis was an identical twin is the probability
+ of I given T we have:
+
+- (1) $p(I|T) = p(I)*p(T|I) / p(T)$
+
+
+It is known that if you have a identical twin or fraternal twin you
+ have a twin.
+
+- (2) $p(F)*P(T|F) = p(T and F) = p(F) = 1/125$ 
+- (3) $p(I)*p(T|I) = p(T and I) = p(I) = 1/300$  
+
+Then: $p(T|F) = 1$ and $p(T|I) = 1$
+
+But, $T$ is the disjoint union of $F$ and $I$. 
+As consequence 
+
+$p(T) = p(F or I) = p(I) + p(F) - p(I and F)= 1/125 + 1/300 - 0 = 17/1500$
+
+In summary:
+
+- (4) $p(T) = 17/1500$
+ 
+Going back to (1) and using Bayes theorem, we have:
+
+$p(I|T) = p(I)*p(T|I) / p(T) = (1/300)*1 / (17/1500)$
+
+Finally, the probabily that Elvis was an identical twin is
+
+$p(I|T) = 15/51$.
 
 ---
 
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+The Frequentist and Bayesian define probability in differently.
+Frequentists see probability as relative frequency; and Bayesians
+ see probability as a degree of belief or certantity.
+The Bayesian view of probability allows us to make probability statements
+ about a lot of things.
 
+In comparison, frequentist inference relies more on the data than
+ bayesian inference. In contrast, bayesian inference relies more on the
+ probability distribution function for inference than.
 ---
 
 ###Optional Exercises
