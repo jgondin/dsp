@@ -145,9 +145,9 @@ $\begin{array}{ll}
                       \end{array}\right]
                       = (6\cdot 3) + (2\cdot 5) + (-3\cdot(-1)) + (5\cdot 4) } \\
                       &
-                      = 18 + 10 + 3 + 20 = 41 
+                      = 18 + 10 + 3 + 20 = 51 
                     \\
-=>\vec{u} \cdot \vec{v} =   & 41
+=>\vec{u} \cdot \vec{v} =   & 51
 \end{array}$
 
 
