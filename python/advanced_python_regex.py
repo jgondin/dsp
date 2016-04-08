@@ -61,7 +61,8 @@ domains = []
 for e in emails:
     d = e.split('@')[1]
     d = d.replace(' ', '')
-    domains.append(d)
+    if d not in domains:
+        domains.append(d)
 
 #print domains
 print('----')

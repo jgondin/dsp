@@ -38,6 +38,10 @@ print('av' )
 pprint(6*u)
 print()
 
+print('u*v' )
+pprint(u*v.T)
+print()
+
 print('|u|=')
 pprint(u.norm())
 print()
